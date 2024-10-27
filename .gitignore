@@ -1,0 +1,55 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Dependencies
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Build
+/bin/
+/dist/
+
+# React
+/web/node_modules/
+/web/build/
+/web/.env.local
+/web/npm-debug.log*
+/web/yarn-debug.log*
+/web/yarn-error.log*
+
+# Docker
+.docker/
+
+# Test coverage
+coverage.txt
+*.cover
+
+# Binary files
+cmd/inditrade/inditrade
+
+# ML model files
+model/trained/*.weights
+model/trained/*.model
+model/data/*.csv
+
+# Misc
+.DS_Store
+*.log
+tmp/
